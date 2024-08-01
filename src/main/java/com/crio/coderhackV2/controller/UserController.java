@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.crio.coderhackV2.entity.UpdateScore;
 import com.crio.coderhackV2.entity.User;
 import com.crio.coderhackV2.service.UserService;
 import java.util.List;
@@ -38,7 +39,8 @@ public class UserController {
     }
 
     @PutMapping("/{userId}")
-    public ResponseEntity<User> updateUserScore(@PathVariable String userId, @RequestBody int score) {
+    public ResponseEntity<User> updateUserScore(@PathVariable String userId, @RequestBody UpdateScore updateScore) {
+        int score=updateScore.getScore();
         if (score < 0 || score > 100) {
             return ResponseEntity.badRequest().build();
         }

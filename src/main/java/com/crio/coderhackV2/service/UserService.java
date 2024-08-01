@@ -42,6 +42,8 @@ public class UserService {
         userRepository.deleteById(userId);
     }
 
+    
+
     private void updateBadges(User user) {
         List<String> badges = new ArrayList<>();
         if (user.getScore() >= 1 && user.getScore() < 30) {
