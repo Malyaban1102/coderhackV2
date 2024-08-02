@@ -35,7 +35,7 @@ API endpoints
 
 API Testing
 
-For testing the API endpoints, you can use the following link - 
+For testing the API endpoints, you can use the following link - https://web.postman.co/workspace/My-Workspace~abb9d005-9eb1-4cbd-8076-ffb1328145e2/collection/36793359-a5be77ce-7a2d-4e10-bc14-22df40e152ec?action=share&source=copy-link&creator=36793359
 
    
 
