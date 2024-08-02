@@ -6,18 +6,18 @@ A RESTful API service built with Spring Boot to manage the leaderboard for a cod
 1. User Registration: Register a new user with a unique User ID and Username.
 2. Update Score: Update the score of a specific user.
 3. Badge Awarding: Award badges to users based on their scores.
-   . 1 <= Score < 30 -> Code Ninja
-   . 30 <= Score < 60 -> Code Champ
-   . 60 <= Score <= 100 -> Code Master
+   *  1 <= Score < 30 -> Code Ninja
+   *  30 <= Score < 60 -> Code Champ
+   *  60 <= Score <= 100 -> Code Master
 4. User Retrieval: Retrieve a list of all registered users.
 5. User Deletion: Deregister a specific user from the contest.
 
 # Installation and Usage
 
 Prerequisites-
-. Java 17 or higher
-. MongoDB
-. Postman for API testing
+* Java 17 or higher
+*  MongoDB
+*  Postman for API testing
 
 # Getting started
 
